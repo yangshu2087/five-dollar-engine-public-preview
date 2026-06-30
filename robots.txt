@@ -1,0 +1,3 @@
+User-agent: *
+Disallow: /
+# Prelaunch local package; change only after publish approval.
