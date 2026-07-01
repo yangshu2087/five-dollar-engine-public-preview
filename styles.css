@@ -131,6 +131,31 @@ h2 {
 
 .checklist li { margin: 10px 0; }
 
+.table-wrap {
+  overflow-x: auto;
+}
+
+.worksheet-table {
+  width: 100%;
+  border-collapse: collapse;
+  min-width: 680px;
+}
+
+.worksheet-table th,
+.worksheet-table td {
+  text-align: left;
+  vertical-align: top;
+  border-bottom: 1px solid var(--line);
+  padding: 12px;
+}
+
+.worksheet-table th {
+  color: var(--accent-2);
+  font-size: 0.85rem;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+}
+
 .price {
   font-size: 2rem;
   font-weight: 850;
